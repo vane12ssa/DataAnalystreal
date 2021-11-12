@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.redes{
+  width: 100%;
+}
+
+body {
+    background-color: #c2b3dd;                     
+    margin: 0;
+}
+
+header{
+  width: 100%;
+  background: #c2b3dd;
+}
+
+#btn-menu{
+  display: none;
+}
+
+header label{
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 10px
+    /*border-right: 1px solid #fff;*/
+}
+
+header label:hover{
+    cursor: pointer;
+    background: rgba(0,0,0,0.3);
+}
+
+.navigation ul{
+    margin: 0px;
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navigation ul{
+    padding: 0;
+}
+  
+.navigation ul li{
+    display: inline-block;
+}
+  
+.navigation ul li a{
+    font-family: 'Lobster';
+    display: block;
+    padding: 15px 20px;
+    border-radius: 8px;
+    font-size: 25px;
+    text-decoration: none;
+}
+  
+.navigation ul ul{
+    display: none;
+    position: absolute;
+}
+  
+.navigation ul li:hover ul{
+    display: block;
+}
+  
+.navigation ul li a:hover{
+    background: lightblue;
+}
+
+@media (max-width: 768px){
+    header label{
+        display: block;
+    }
+
+    .navigation{
+        position: absolute;
+        background: #c2b3dd;
+        width: 70%;
+        margin-left: -70%;
+        transition: all 0.5s;
+    }
+
+    .navigation ul{
+        flex-direction: column;
+    }
+
+    .navigation li{
+        border-top: 1px solid #000;
+    }
+
+    #btn-menu:checked ~ .navigation{
+        margin: 0;
+    }
+}
+
+h1{
+  font-family: 'Times New Roman', Times, serif;
+  text-align:center;
+  font-size: 4rem;
+}
+h3{
+  font-family: 'Times New Roman', Times, serif;
+  text-align:center;
+  font-size: 40px;
+}
+.contenido table{
+  background-color: #8e61b3;
+  border-radius: 1rem;
+  width: auto;
+  height: 8rem;
+  margin-left: 10rem;  
+}
+.contenido img{
+  width: 300px;
+  height: 450px;
+  margin-left: 2rem;
+  border-radius: 2rem;
+}
+
+.tablita table{
+  margin-top: 0px;
+  margin-left: 12rem;
+  margin-right: 12rem;
+}
+
+.table h2{
+  padding-top: 0px;
+  text-align: center;
+  font-size: 40px;
+  margin: 0px;
+  margin-top: 0px;
+}
+
+.table td{
+  cursor: pointer;
+}
+.table img{
+  border-radius: 3rem;
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
+  transition: all 0.4s linear;
+}
+
+.table:hover .imagen {
+  -webkit-transform:scale(1.3);transform:scale(1.3);
+}
+
+.table:hover .imagen1 {
+  -webkit-transform:scale(1.3);transform:scale(1.3);
+}
+
+.table:hover .imagen2 {
+  -webkit-transform:scale(1.3);transform:scale(1.3);
+}
+
+.table img {
+  overflow:hidden;
+}
+
+/*.table td:hover{
+  background: lightblue;
+  border-radius: 3rem;
+}*/
+
+.table p{
+  padding-top: 0rem;
+  text-align: center;
+  font-size: 25px;
+  margin: 0;
+}
+
+.redes a{
+  text-decoration: none;
+  color: #cecece;
+  transition: all 1s ;
+  font-size: 1.5rem;
+}
+
+.icon-instagram:hover{
+  color: rgb(245, 83, 191);
+}
+
+.icon-facebook:hover{
+  color:rgb(69, 30, 245);
+}
+
+.icon-twitter:hover{
+  color:rgb(107, 208, 255);
+}
+
+.redes {
+  margin-bottom: 1rem;
+  margin-top: 0;
+  background: rgba(0, 0, 0, 0.3);
+  line-height: 2rem;
+}

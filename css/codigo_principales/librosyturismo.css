@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.redes{
+  width: 100%;
+}
+
+body {
+    background-color: #c2b3dd;                     
+    margin: 0;
+}
+
+header{
+  width: 100%;
+  background: #c2b3dd;
+}
+
+#btn-menu{
+  display: none;
+}
+
+header label{
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 10px
+    /*border-right: 1px solid #fff;*/
+}
+
+header label:hover{
+    cursor: pointer;
+    background: rgba(0,0,0,0.3);
+}
+
+.navigation ul{
+    margin: 0px;
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navigation ul{
+    padding: 0;
+}
+  
+.navigation ul li{
+    display: inline-block;
+}
+  
+.navigation ul li a{
+    font-family: 'Lobster';
+    display: block;
+    padding: 15px 20px;
+    border-radius: 8px;
+    font-size: 25px;
+    text-decoration: none;
+}
+  
+.navigation ul ul{
+    display: none;
+    position: absolute;
+}
+  
+.navigation ul li:hover ul{
+    display: block;
+}
+  
+.navigation ul li a:hover{
+    background: lightblue;
+}
+
+@media (max-width: 768px){
+    header label{
+        display: block;
+    }
+
+    .navigation{
+        position: absolute;
+        background: #c2b3dd;
+        width: 70%;
+        margin-left: -70%;
+        transition: all 0.5s;
+    }
+
+    .navigation ul{
+        flex-direction: column;
+    }
+
+    .navigation li{
+        border-top: 1px solid #000;
+    }
+
+    #btn-menu:checked ~ .navigation{
+        margin: 0;
+    }
+}
+
+.section-title h1{
+  flex: 1;
+  padding: 50px;
+  background-color: rgba(158, 147, 147, 0.3);
+  margin-left: 5rem;
+  margin-right: 5rem;
+  font-size: 3rem;
+  border-radius: 10px;
+}
+
+.text{
+  font-size: 1rem;
+}
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.content {
+  background-color: white;
+  padding: 10px;
+  margin: 10px 16px;
+}
+
+.tabla1{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.redes a{
+    text-decoration: none;
+    color: #cecece;
+    transition: all 1s ;
+    font-size: 1.5rem;
+  }
+  
+  .icon-instagram:hover{
+    color: rgb(245, 83, 191);
+  }
+  
+  .icon-facebook:hover{
+    color:rgb(69, 30, 245);
+  }
+  
+  .icon-twitter:hover{
+    color:rgb(107, 208, 255);
+  }
+  
+  .redes {
+    margin-bottom: 1rem;
+    margin-top: 0;
+    background: rgba(0, 0, 0, 0.3);
+    line-height: 2rem;
+  }

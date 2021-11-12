@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.todo, .titulo, .fotos, .box, .redes{
+  width: 100%;
+}
+
+body {
+    background-color: #c2b3dd;                     
+    margin: 0;
+}
+
+header{
+  width: 100%;
+  background: #c2b3dd;
+}
+
+#btn-menu{
+  display: none;
+}
+
+header label{
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 10px
+    /*border-right: 1px solid #fff;*/
+}
+
+header label:hover{
+    cursor: pointer;
+    background: rgba(0,0,0,0.3);
+}
+
+.navigation ul{
+    margin: 0px;
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navigation ul{
+    padding: 0;
+}
+  
+.navigation ul li{
+    display: inline-block;
+}
+  
+.navigation ul li a{
+    font-family: 'Lobster';
+    display: block;
+    padding: 15px 20px;
+    border-radius: 8px;
+    font-size: 25px;
+    text-decoration: none;
+}
+  
+.navigation ul ul{
+    display: none;
+    position: absolute;
+}
+  
+.navigation ul li:hover ul{
+    display: block;
+}
+  
+.navigation ul li a:hover{
+    background: lightblue;
+}
+
+@media (max-width: 768px){
+    header label{
+        display: block;
+    }
+
+    .navigation{
+        position: absolute;
+        background: #c2b3dd;
+        width: 70%;
+        margin-left: -70%;
+        transition: all 0.5s;
+    }
+
+    .navigation ul{
+        flex-direction: column;
+    }
+
+    .navigation li{
+        border-top: 1px solid #000;
+    }
+
+    #btn-menu:checked ~ .navigation{
+        margin: 0;
+    }
+}
+
+/*Centrado de div e imagenes*/
+.todo{
+    max-width: 1150px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    color: #ffffff;
+    line-height: 1.7;
+}
+
+/*Centrado de titulo*/
+.titulo{
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+/*Estilo de titulo*/
+.titulo h1 {
+    margin-bottom: 25px;
+}
+
+.fotos {
+display: flex;
+}
+
+.box figure{
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+/*Tamaño de imagenes*/
+.box figure img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/*Estilo para el fondo de los iconos*/
+.redes{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.315);
+    height: 0%;
+    line-height:  260px;
+    transition: all 1s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+ /*Animación de los iconos*/
+.box:hover .redes{
+    opacity: 1;
+    visibility: visible;
+    height: 100%;
+}
+
+/*Color del nombre*/
+.box:hover h1{
+    color: crimson;
+    transition: 2s;
+}
+
+.redes a{
+    text-decoration: none;
+    color: #cecece;
+    transition: all 1s ;
+    font-size: 1.5rem;
+  }
+  
+  .icon-instagram:hover{
+    color: rgb(245, 83, 191);
+  }
+  
+  .icon-facebook:hover{
+    color:rgb(69, 30, 245);
+  }
+  
+  .icon-twitter:hover{
+    color:rgb(107, 208, 255);
+  }
+  
+  .redes {
+    margin-bottom: 1rem;
+    margin-top: 0;
+    background: rgba(0, 0, 0, 0.3);
+    line-height: 2rem;
+  }

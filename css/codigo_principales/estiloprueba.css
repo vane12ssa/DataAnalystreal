@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Century Gotic'
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #ededed;
+}
+
+header{
+    width: 100%;
+    background: #c2b3dd;
+}
+
+#btn-menu{
+    display: none;
+}
+
+header label{
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 10px
+}
+
+header label:hover{
+    cursor: pointer;
+    background: rgba(0,0,0,0.3);
+}
+
+.menu ul{
+    margin: 0px;
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu li{
+    border-right: 1px solid #000;
+}
+
+.menu li:hover{
+    background: rgba(0,0,0,0.3);
+}
+
+.menu ul a{
+    display: block;
+    padding: 15px 20px;
+    color:#000;
+    text-decoration: none;  
+}
+
+@media (max-width: 768px){
+    header label{
+        display: block;
+    }
+
+    .menu{
+        position: absolute;
+        background: #c2b3dd;
+        width: 70%;
+        margin-left: -70%;
+        transition: all 0.5s;
+    }
+
+    .menu ul{
+        flex-direction: column;
+    }
+
+    .menu li{
+        border-top: 1px solid #000;
+    }
+
+    #btn-menu:checked ~ .menu{
+        margin: 0;
+    }
+}
+
+.home{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.in-flex{
+    flex: 1;
+    min-width: 250px;
+}
+
+.in-flex:first-child{
+    flex: 2;
+    padding: 25px;
+    background-color: #fff;
+    margin: 20px;
+    margin-bottom: 0px;
+}
+
+.in-flex div{
+    padding: 25px;
+    background-color: #fff;
+    margin: 20px;
+}
+
+/*.progress-bar{
+    background-color: #1a1a1a;
+    height: 25px;
+    padding: 25px;
+    width: 350px;
+    margin: 50px 0;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px #000 inset, 0 1px #444;
+}*/
