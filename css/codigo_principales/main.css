@@ -14,13 +14,13 @@ body {
     margin: 0;
 }
 
-.en{
-  color:#333;
+.idiomas{
+  margin-top:5rem;
+  padding:10rem
 }
 
-.idiomas{
-  margin-top:2rem;
-  padding:10rem
+.en{
+  color:#333;
 }
 
 .es{
