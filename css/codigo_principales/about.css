@@ -217,7 +217,7 @@ header label:hover{
     height: auto;
     margin-left: 10rem;
     margin-right: 10rem;
-    margin-top: 1rem;
+    margin-top: 15px;
     border-radius: 2rem;
 }
 
@@ -235,7 +235,7 @@ header label:hover{
 }
 
 .tablita ul{
-    margin-left: 1rem;
+    margin-left: 3rem;
 
 }
 
