@@ -15,7 +15,7 @@ body {
 }
 
 .idiomas{
-  margin-top:2rem;
+  margin-top:1r em;
 }
 
 .en{
@@ -190,15 +190,15 @@ h3{
 }
 
 .table:hover .imagen {
-  -webkit-transform:scale(1.3);transform:scale(1.3);
+  filter:blur(5px);
 }
 
 .table:hover .imagen1 {
-  -webkit-transform:scale(1.3);transform:scale(1.3);
+  filter:grayscale(75%);
 }
 
 .table:hover .imagen2 {
-  -webkit-transform:scale(1.3);transform:scale(1.3);
+  filter:saturate(100%);
 }
 
 .table img {
@@ -238,7 +238,7 @@ h3{
 
 .redes {
   margin-bottom: 1rem;
-  margin-top: 0;
+  margin-top: 5px;
   background: rgba(0, 0, 0, 0.3);
   line-height: 2rem;
 }
