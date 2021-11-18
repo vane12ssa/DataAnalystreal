@@ -191,7 +191,7 @@ h3{
 }
 
 .table:hover .imagen {
-  filter:blur(5px);
+  filter:grayscale(75%);
 }
 
 .table:hover .imagen1 {
@@ -199,7 +199,7 @@ h3{
 }
 
 .table:hover .imagen2 {
-  filter:saturate(100%);
+  filter:grayscale(75%);
 }
 
 .table img {
@@ -223,6 +223,7 @@ h3{
   color: #cecece;
   transition: all 1s ;
   font-size: 1.5rem;
+  margin-top:1rem;
 }
 
 .icon-instagram:hover{
@@ -239,7 +240,7 @@ h3{
 
 .redes {
   margin-bottom: 1rem;
-  margin-top: 5px;
+  margin-top: 1rem;
   background: rgba(0, 0, 0, 0.3);
   line-height: 2rem;
 }
