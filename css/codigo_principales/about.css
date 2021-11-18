@@ -212,7 +212,12 @@ header label:hover{
 }
 
 .tablita{
+    text-align: center;
+    width: auto;
+    height: auto;
     margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 1rem;
     border-radius: 2rem;
 }
 
@@ -225,21 +230,21 @@ header label:hover{
     border-radius: 10px;
 }
 
-/*.tablita div{
-    margin-left: 1rem;
+.tablita div{
+    margin-right: 1rem;
 }
 
 .tablita ul{
-    margin-left: 3rem;
+    margin-left: 1rem;
 
-}*/
+}
 
 .text1{
     text-align: center;
     margin-top: 1rem;
     margin-left: 15rem;
     margin-bottom: 1rem;
-    width: 70%;
+    width: 100%;
     font-size: 20px;
     background-color: rgba(138, 136, 136, 0.3);
     border-radius: 10px;
