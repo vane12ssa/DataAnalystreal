@@ -1,3 +1,16 @@
+var check=document.querySelector(".check");
+check.addEventListener('click',idioma);
+
+function idioma(){
+  let id=check.checked;
+  if (id==true){
+     location.href="../en/about.html";
+  }else{
+    location.href="../paginas/About.html";
+  }
+}
+
+
 function move() {
     var elem = document.getElementById("myBar");   
     var width = 0;
