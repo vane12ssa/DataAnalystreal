@@ -158,8 +158,9 @@ h3{
   background-color: #8e61b3;
   border-radius: 1rem;
   width: auto;
-  height: 15rem;
-  margin-left: 10rem;  
+  height: 10rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
 }
 .contenido img{
   width: 300px;
