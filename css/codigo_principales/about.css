@@ -162,6 +162,9 @@ header label:hover{
     margin-right: 5rem;
     font-size: 3rem;
     border-radius: 10px;
+}
+
+.title{
     font-family: 'Luckiest Guy', cursive;
 }
 
@@ -234,7 +237,7 @@ header label:hover{
 
 }
 
-.texto1{
+.text1{
     text-align: center;
     margin-top: 1rem;
     margin-left: 15rem;
@@ -257,6 +260,9 @@ header label:hover{
     font-size: 3rem;
     border-radius: 10px;
     margin-bottom: 2rem;
+}
+
+.title1{
     font-family: 'Luckiest Guy', cursive;
 }
 
