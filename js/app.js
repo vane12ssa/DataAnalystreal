@@ -1,4 +1,4 @@
-var check=documentary.querySelector(".check");
+var check=document.querySelector(".check");
 check.addEvenListener('click',idioma);
 
 function idioma(){
