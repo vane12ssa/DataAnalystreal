@@ -213,7 +213,6 @@ header label:hover{
 
 .tablita{
     margin-left: 10rem;
-    margin-right: 12rem;
     border-radius: 2rem;
 }
 
@@ -227,11 +226,11 @@ header label:hover{
     border-radius: 10px;
 }
 
-.tablita div{
+/*.tablita div{
     margin-left: 1rem;
 }
 
-/*.tablita ul{
+.tablita ul{
     margin-left: 3rem;
 
 }*/
