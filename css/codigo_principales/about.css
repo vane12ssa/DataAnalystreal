@@ -224,6 +224,7 @@ header label:hover{
 .tablita p{
     margin-top: 12px;
     margin-left: 15px;
+    margin-right:1rem;
     margin-bottom: 12px;
     font-size: 20px;
     background-color: rgba(138, 136, 136, 0.3);
