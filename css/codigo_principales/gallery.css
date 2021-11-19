@@ -171,6 +171,12 @@ img{
   margin-right: 35rem;
 }
 
+.mySlides1 {
+  display: none;
+  margin-left: 30rem;
+  margin-right: 35rem;
+}
+
 .cursor {
   cursor: pointer;
 }
