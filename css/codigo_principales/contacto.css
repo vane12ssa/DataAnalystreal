@@ -108,7 +108,7 @@ header label:hover{
     margin-top: 50px;
     text-align: center;
     color: #ffffff;
-    line-height: 1.7;
+    line-height: 1.9;
 }
 
 /*Centrado de titulo*/
@@ -169,9 +169,10 @@ display: flex;
 
 .redes a{
     text-decoration: none;
+    padding:5px;
     color: #cecece;
     transition: all 1s ;
-    font-size: 1.5rem;
+    font-size: 22px;
   }
   
   .icon-instagram:hover{
