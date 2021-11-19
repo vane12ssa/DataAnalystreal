@@ -186,10 +186,4 @@ display: flex;
   .icon-twitter:hover{
     color:rgb(107, 208, 255);
   }
-  
-  .redes {
-    margin-bottom: 1rem;
-    margin-top: 0;
-    background: rgba(0, 0, 0, 0.3);
-    line-height: 2rem;
-  }
+ 
