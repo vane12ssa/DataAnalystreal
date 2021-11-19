@@ -222,24 +222,6 @@ header label:hover{
 }
 
 .tablita p{
-    margin-top: 10px;
-    margin-left: 15px;
-    margin-bottom: 12px;
-    width:100%;
-    font-size: 20px;
-    background-color: rgba(138, 136, 136, 0.3);
-    border-radius: 10px;
-}
-
-.tablita div{
-    margin-left: 2rem;
-}
-
-.tablita ul{
-    margin-right:1rem;
-}
-
-.text1{
     text-align: center;
     margin-top: 1rem;
     margin-left: 15rem;
@@ -249,6 +231,14 @@ header label:hover{
     background-color: rgba(138, 136, 136, 0.3);
     border-radius: 10px;
     font-family: 'Indie Flower', cursive;
+}
+
+.tablita div{
+    margin-left: 1rem;
+}
+
+.tablita ul{
+    margin-left:3rem;
 }
 
 .section-title2{
