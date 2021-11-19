@@ -4,8 +4,8 @@ check.addEventListener('click',idioma);
 function idioma(){
   let id=check.checked;
   if (id==true){
-     location.href="../en/libros.html";
+     location.href="../paginas/libros.html";
   }else{
-    location.href="../paginas/Libros.html";
+    location.href="../en/Libros.html";
   }
 }
