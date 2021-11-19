@@ -107,7 +107,7 @@ header label:hover{
   background-color: rgba(158, 147, 147, 0.3);
   margin-left: 5rem;
   margin-right: 5rem;
-  font-size: 3rem;
+  font-size: 20px;
   border-radius: 10px;
   font-family: 'Luckiest Guy', cursive;
 }
@@ -116,48 +116,7 @@ header label:hover{
   font-size: 1rem;
 }
 
-/*.column{
-  float: left;
-  width: 25%;
-  padding: 10px;
-}
 
-.column img{
-  opacity: 0.8;
-  cursor: pointer;
-}
-
-.column img:hover{
-  opacity: 1;
-}
-
-.row::after{
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.container {
-  position: relative;
-  display: none;
-}
-
-#imgtext {
-  position: absolute;
-  bottom: 15px;
-  left: 15px;
-  color: white;
-  font-size: 20px;
-}
-
-.closebtn {
-  position: absolute;
-  top: 10px;
-  right: 15px;
-  color: white;
-  font-size: 35px;
-  cursor: pointer;
-}*/
 
 img{
   vertical-align: middle;
