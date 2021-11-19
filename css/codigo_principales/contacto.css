@@ -146,7 +146,7 @@ display: flex;
     position: absolute;
     bottom: 0;
     left: 0;
-    background: rgba(0, 0, 0, 0.31);
+    background: rgba(0, 0, 0, 0.215);
     height: 0%;
     line-height:  260px;
     transition: all 1s;
