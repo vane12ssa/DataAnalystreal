@@ -225,9 +225,9 @@ header label:hover{
     margin-top: 10px;
     margin-left: 15px;
     margin-bottom: 12px;
+    weight:100%;
     font-size: 20px;
     background-color: rgba(138, 136, 136, 0.3);
-    padding:20px;
     border-radius: 10px;
 }
 
@@ -236,8 +236,7 @@ header label:hover{
 }
 
 .tablita ul{
-    margin-left: 3rem;
-
+    margin-right:1rem;
 }
 
 .text1{
