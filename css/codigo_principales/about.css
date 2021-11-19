@@ -233,12 +233,16 @@ header label:hover{
     font-family: 'Indie Flower', cursive;
 }
 
-.tablita div{
+/*.tablita div{
     margin-left: 1rem;
-}
+}*/
 
-.tablita ul{
+.lista{
     margin-left:3rem;
+    font-size: 20px;
+    background-color: rgba(138, 136, 136, 0.3);
+    border-radius: 10px;
+    font-family: 'Indie Flower', cursive;
 }
 
 .section-title2{
