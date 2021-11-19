@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 * {
   margin: 0px;
   padding: 0px;
@@ -108,6 +109,7 @@ header label:hover{
   margin-right: 5rem;
   font-size: 3rem;
   border-radius: 10px;
+  font-family: 'Luckiest Guy', cursive;
 }
 
 .text{
