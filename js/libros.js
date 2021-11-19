@@ -6,6 +6,6 @@ function idioma(){
   if (id==true){
      location.href="../en/libros.html";
   }else{
-    location.href="../paginas/libros.html";
+    location.href="../paginas/Libros.html";
   }
 }
