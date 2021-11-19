@@ -9,6 +9,11 @@
   width: 100%;
 }
 
+body {
+    background-color: #c2b3dd;                     
+    margin: 0;
+}
+
 .idiomas{
   margin-top:1rem;
   margin-left:1rem;
@@ -55,11 +60,6 @@
 
 .check:checked:before{
   border:2px solid #00a1ff;
-}
-
-body {
-    background-color: #c2b3dd;                     
-    margin: 0;
 }
 
 header{
