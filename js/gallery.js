@@ -1,10 +1,13 @@
-/*function myFunction(imgs) {
-    var expandImg = document.getElementById("expandedImg");
-    var imgText = document.getElementById("imgtext");
-    expandImg.src = imgs.src;
-    imgText.innerHTML = imgs.alt;
-    expandImg.parentElement.style.display = "block";
-  }*/
+var check=document.querySelector(".check");
+check.addEventListener('click',idioma);
+function idioma(){
+  let id=check.checked;
+  if (id==true){
+     location.href="../en/galeria.html";
+  }else{
+    location.href="../paginas/gallery.html";
+  }
+}
 
   var slideIndex = 1;
   showSlides(slideIndex);
