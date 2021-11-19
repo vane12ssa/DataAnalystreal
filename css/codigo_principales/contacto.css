@@ -236,3 +236,28 @@ display: flex;
     color:rgb(107, 208, 255);
   }
  
+.redes a{
+    text-decoration: none;
+    color: #cecece;
+    transition: all 1s ;
+    font-size: 1.5rem;
+}
+  
+.icon-instagram:hover{
+    color: rgb(245, 83, 191);
+}
+  
+.icon-facebook:hover{
+    color:rgb(69, 30, 245);
+}
+  
+.icon-twitter:hover{
+    color:rgb(107, 208, 255);
+}
+  
+.redes {
+    margin-bottom: 1rem;
+    margin-top: 0;
+    background: rgba(0, 0, 0, 0.3);
+    line-height: 2rem;
+}
